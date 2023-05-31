@@ -83298,6 +83298,10 @@ function flattenCodeTree(tree) {
   var className = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : [];
   var newTree = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : [];
 
+  if (tree.type === 'root') {
+    return flattenCodeTree(tree.children, className, newTree);
+  }
+
   for (var i = 0; i < tree.length; i++) {
     var node = tree[i];
 
