@@ -1,5 +1,7 @@
 ## React Syntax Highlighter
 
+> Fork of the original repo to upgrade refractor to v4
+
 [![Actions Status](https://github.com/react-syntax-highlighter/react-syntax-highlighter/workflows/Node%20CI/badge.svg)](https://github.com/conorhastings/react-syntax-highlighter/actions)
 [![npm](https://img.shields.io/npm/dm/react-syntax-highlighter.svg?style=flat-square)](https://www.npmjs.com/package/react-syntax-highlighter)
 
@@ -155,7 +157,7 @@ SyntaxHighlighter.supportedLanguages;
 - [grape-ui](https://www.grapeui.com) - Component library using styled-system and other open source components.
 - [✅ Good Arduino Code](https://goodarduinocode.com) - A curated library of Arduino Coding examples
 - [marmota.app](https://marmota.app) - A desktop app to create simple markdown presentations
- 
+
 If your project uses react-syntax-highlighter please send a pr to add!
 
 ### License
